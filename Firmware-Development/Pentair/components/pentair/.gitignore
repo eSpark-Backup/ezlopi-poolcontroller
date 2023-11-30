@@ -1,0 +1,8 @@
+*.txt
+/Debug/
+/Release/
+/build/
+/.pio/
+/sloeber.ino.cpp
+*.d
+*.log
