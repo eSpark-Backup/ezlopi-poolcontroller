@@ -1,0 +1,18 @@
+		/*Enums*/
+        // POOL_ON        = 'a',
+        // POOL_OFF       = 'b',
+        // POOL_LIGHT_ON  = 'c',
+        // POOL_LIGHT_OFF = 'd',
+        // CLEANER_ON     = 'e',
+        // CLEANER_OFF    = 'f',
+        // WATER_FALL_ON  = 'g',
+        // WATER_FALL_OFF = 'h',
+        // SALT_PCT_QUERY = 'i',
+        // CHLOR_STEP_1   = 'j',
+        // CHLOR_STEP_2   = 'k',
+        // CHLOR_STEP_3   = 'l',
+        // CHLOR_STEP_4   = 'm',
+        // CHLOR_STEP_5   = 'n',
+        // CHLOR_STEP_6   = 'o',
+        // CHLOR_STEP_7   = 'p',
+        // CHLOR_STEP_8   = 'q'
