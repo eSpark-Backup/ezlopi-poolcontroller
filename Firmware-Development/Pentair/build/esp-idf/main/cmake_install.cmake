@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/eSpark/Pentair/main
+# Install script for directory: C:/Users/eSpark/Documents/GitHub/ezlopi-poolcontroller/Firmware-Development/Pentair/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

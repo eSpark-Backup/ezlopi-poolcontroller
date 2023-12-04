@@ -1572,7 +1572,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_pentair_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\eSpark\.espressif\tools\cmake\3.23.1\bin\cmake.exe --regenerate-during-build -SC:\Users\eSpark\Pentair -BC:\Users\eSpark\Pentair\build
+  command = C:\Users\eSpark\.espressif\tools\cmake\3.23.1\bin\cmake.exe --regenerate-during-build -SC:\Users\eSpark\Documents\GitHub\ezlopi-poolcontroller\Firmware-Development\Pentair -BC:\Users\eSpark\Documents\GitHub\ezlopi-poolcontroller\Firmware-Development\Pentair\build
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/eSpark/Pentair/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/eSpark/Documents/GitHub/ezlopi-poolcontroller/Firmware-Development/Pentair/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

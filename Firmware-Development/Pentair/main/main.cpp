@@ -81,12 +81,35 @@ void read_bytes()
     gpio_set_level(BLINK_GPIO,0);
 }
 
+void print_cid()
+{
+    printf("To send a request to the Pool Controller, press any one of the following characters given below through your keyboard:\n"
+            "\t\t\tPOOL_ON        = a,\n"
+            "\t\t\tPOOL_OFF       = b,\n"
+            "\t\t\tPOOL_LIGHT_ON  = c,\n"
+            "\t\t\tPOOL_LIGHT_OFF = d,\n"
+            "\t\t\tCLEANER_ON     = e,\n"
+            "\t\t\tCLEANER_OFF    = f,\n"
+            "\t\t\tWATER_FALL_ON  = g,\n"
+            "\t\t\tWATER_FALL_OFF = h,\n"
+            "\t\t\tSALT_PCT_QUERY = i,\n"
+            "\t\t\tCHLOR_STEP_1   = j,\n"
+            "\t\t\tCHLOR_STEP_2   = k,\n"
+            "\t\t\tCHLOR_STEP_3   = l,\n"
+            "\t\t\tCHLOR_STEP_4   = m,\n"
+            "\t\t\tCHLOR_STEP_5   = n,\n"
+            "\t\t\tCHLOR_STEP_6   = o,\n"
+            "\t\t\tCHLOR_STEP_7   = p,\n"
+            "\t\t\tCHLOR_STEP_8   = q,\n"
+            "NOTE:THE CHARACTER COMMANDS ARE CASE-SENSITIVE.\n"
+            "Enter your desired character now:\n");
+}
 void write_bytes()
 {  
     gpio_set_level(BLINK_GPIO,1);
     char input = '\0';
+    print_cid();
     int len = uart_read_bytes(UART_PORT_NUM, &input, 1, portMAX_DELAY);//100 / portTICK_RATE_MS
-
     if (len) 
     {
         ESP_LOGI(TAG, "%c\t", input);

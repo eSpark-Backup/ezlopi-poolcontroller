@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/eSpark/esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "C:/Users/eSpark/Pentair/build/bootloader",
-    "config_file":        "C:/Users/eSpark/Pentair/sdkconfig",
+    "build_dir":          "C:/Users/eSpark/Documents/GitHub/ezlopi-poolcontroller/Firmware-Development/Pentair/build/bootloader",
+    "config_file":        "C:/Users/eSpark/Documents/GitHub/ezlopi-poolcontroller/Firmware-Development/Pentair/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
